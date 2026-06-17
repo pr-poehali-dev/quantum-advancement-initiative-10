@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Мы оптовый поставщик вафель с 2010 года. Работаем с магазинами, кофейнями и сетевым ритейлом по всей стране — подбираем нужный ассортимент и обеспечиваем стабильные поставки.
+              Мы оптовый поставщик вафельной продукции с 2010 года. Специализируемся на стаканчиках, рожках, тарталетках и коржах — поставляем в кафе, кондитерские и торговые сети по всей стране.
             </p>
 
             {philosophyItems.map((item, index) => (
