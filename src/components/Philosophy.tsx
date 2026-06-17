@@ -3,23 +3,23 @@ import { HighlightedText } from "./HighlightedText"
 
 const philosophyItems = [
   {
-    title: "Минимализм со смыслом",
+    title: "Натуральный состав",
     description:
-      "Каждый элемент имеет свое назначение и пространство для дыхания. Мы убираем лишнее, чтобы раскрыть то, что действительно важно.",
+      "Только проверенное сырьё: мука, сливочное масло, натуральные начинки. Без лишней химии — вафли, которые приятно перепродавать.",
   },
   {
-    title: "Архитектурный подход",
+    title: "Собственное производство",
     description:
-      "Планировки, вдохновленные структурой, ритмом и материальностью. Здания, которые говорят через пропорции и свет.",
+      "Полный цикл от замеса до упаковки на нашей фабрике. Контролируем качество на каждом этапе и держим стабильную рецептуру.",
   },
   {
-    title: "Естественная динамика",
+    title: "Стабильные объёмы",
     description:
-      "Движение поддерживает восприятие, но никогда не отвлекает. Анимация, которая ощущается естественно, как свет, скользящий по комнате.",
+      "Производственные мощности позволяют закрывать крупные заказы без срывов сроков. Всегда отгружаем точно в оговорённый день.",
   },
   {
-    title: "Вневременная эстетика",
-    description: "Элегантный, спокойный и долговечный визуальный язык. Дизайн, который превосходит тренды и стареет с достоинством.",
+    title: "Цена от производителя",
+    description: "Работаем напрямую, без посредников и наценок. Чем больше партия — тем выгоднее ваша закупочная цена.",
   },
 ]
 
@@ -53,11 +53,11 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Наша философия</p>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">О нас</p>
             <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
-              Дизайн с
+              Вафли, на которых
               <br />
-              <HighlightedText>намерением</HighlightedText>
+              <HighlightedText>зарабатывают</HighlightedText>
             </h2>
 
             <div className="relative hidden lg:block">
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Архитектура - это больше, чем конструкция. Это то, как мы воспринимаем мир. Мы создаем пространства, которые питают человеческий дух.
+              Мы производим вафли с 2010 года и поставляем их в магазины, кофейни и оптовые сети по всей стране. Делаем продукт, который легко продавать и приятно есть.
             </p>
 
             {philosophyItems.map((item, index) => (
