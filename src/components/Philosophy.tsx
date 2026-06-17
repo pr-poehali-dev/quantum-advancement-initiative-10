@@ -62,9 +62,9 @@ export function Philosophy() {
 
             <div className="relative hidden lg:block">
               <img
-                src="/images/exterior.png"
-                alt="Архитектурный эскиз рабочего пространства"
-                className="opacity-90 relative z-10 w-auto"
+                src="https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/0adcc3fe-c581-4a35-8f10-231c09015612.jpg"
+                alt="Вафельная продукция оптом"
+                className="opacity-90 relative z-10 w-auto rounded-sm"
               />
             </div>
           </div>
