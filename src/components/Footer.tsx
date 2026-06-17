@@ -9,7 +9,7 @@ export function Footer() {
               <img src="/images/hously-logo.svg" alt="Пространство" width={120} height={32} className="w-auto h-6" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Производим и поставляем вафли оптом по всей России. Натуральный состав, стабильные объёмы и цены от производителя.
+              Оптовый поставщик вафель по всей России. Широкий ассортимент, стабильные поставки и выгодные цены для бизнеса.
             </p>
           </div>
 
