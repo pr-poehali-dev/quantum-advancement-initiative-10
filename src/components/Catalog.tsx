@@ -11,11 +11,11 @@ const categories = [
     image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/d3f9b333-5d95-4558-a5b3-326f3ad59f92.jpg",
     unit: "от 500 шт",
     items: [
-      { name: "Классические ароматные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/27a27774-7621-4c5a-8473-a1b09aef825b.jpg" },
-      { name: "Мини-формат 100 мл", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/7fe387b9-8cc4-49fa-926c-e6722f350c41.jpg" },
-      { name: "Большого объёма 155 мл", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/b1566710-0f2a-4e68-aa2d-162096be170c.jpg" },
-      { name: "Шоколадные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/d959b38a-c203-4c0e-9361-5362afbf6d27.jpg" },
-      { name: "Розовые", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/a9f7897c-2e6c-451d-a480-38d8a2124f92.jpg" },
+      { name: "Классические ароматные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/88ea1fe8-30cc-47d5-bfbc-993c905fab84.jpg" },
+      { name: "Мини-формат 100 мл", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/072e6b8d-60ee-4c94-bcb2-264c3f4a585f.jpg" },
+      { name: "Большого объёма 155 мл", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/f5386001-9a30-4a10-b454-bb3a8ab8a4c1.jpg" },
+      { name: "Шоколадные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/8494b6b0-ab64-4f83-9c0d-590ed44bc723.jpg" },
+      { name: "Розовые", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/95336cf2-99f5-4325-8c02-5bd84b3a238c.jpg" },
     ],
   },
   {
@@ -25,9 +25,9 @@ const categories = [
     image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/6b473ad9-ba77-4622-bdd0-b6c8f0030870.jpg",
     unit: "от 500 шт",
     items: [
-      { name: "Сахарные классические", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/69041708-08b2-49ae-8df2-9e202ca4968c.jpg" },
-      { name: "Сахарные большие", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/71fc4c3a-12b5-46c6-a8a4-5d0a2e0a87ef.jpg" },
-      { name: "Комбо-набор рожки и стаканчики", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/2fac7952-0ec2-4bf0-92b0-271632d21386.jpg" },
+      { name: "Сахарные классические", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/f0e10617-0f7d-4131-8df5-1d180bea73c8.jpg" },
+      { name: "Сахарные большие", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/299bcb6c-4256-4a88-bdc7-d35cf8c9f990.jpg" },
+      { name: "Комбо-набор рожки и стаканчики", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/2e91faf6-7658-45e7-b738-9646d58102c8.jpg" },
     ],
   },
   {
@@ -37,11 +37,11 @@ const categories = [
     image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/218723aa-ca43-411a-b561-51ed49d16735.jpg",
     unit: "от 100 шт",
     items: [
-      { name: "Круглые классические", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/ae520b1d-e97b-4a08-8cd0-ebf5cbca79cf.jpg" },
-      { name: "Шоколадные с какао", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/36b8acbd-aab3-4e97-8210-642e022125fe.jpg" },
-      { name: "Разноцветные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/7cb37681-b6ef-49ac-9066-061111951a53.jpg" },
-      { name: "Цветочек", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/8fba512f-f56e-4e2d-a07d-80bd21a0cf51.jpg" },
-      { name: "Сердечко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/ab8182d1-b2b3-4e57-bfd2-0c60a0deec90.jpg" },
+      { name: "Круглые классические", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/ea1d48e0-10ea-46d7-afcd-e45ae3585014.jpg" },
+      { name: "Шоколадные с какао", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/f4d9bff7-e64c-4b09-94f3-0854b78a73f7.jpg" },
+      { name: "Разноцветные", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/4abfc52b-244b-4992-a00d-59c9b9099515.jpg" },
+      { name: "Цветочек", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/f6f8aa2f-a975-4fda-b3b2-0686347f50a5.jpg" },
+      { name: "Сердечко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/4c0b80cf-71dc-4928-8868-541167913ca8.jpg" },
     ],
   },
   {
@@ -51,11 +51,11 @@ const categories = [
     image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/bb382ef9-c791-4f03-a58d-a7f3cdd393da.jpg",
     unit: "от 200 шт",
     items: [
-      { name: "Корзинка", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/dd05d60d-d579-4aa8-bcd8-c4555ac3bff4.jpg" },
-      { name: "Лукошко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/eb021420-8c2b-4b55-81fb-ebff7c7f97c8.jpg" },
-      { name: "Солнышко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/3d4a84ea-fe35-4eae-9ea8-8241c42781fc.jpg" },
-      { name: "Лодочки", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/86bd58dd-9654-465e-a77b-53e4068c0d9a.jpg" },
-      { name: "Орешек", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/5b9d1db2-97c0-4d14-89c1-32b65a0f4d38.jpg" },
+      { name: "Корзинка", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/4d78f0a8-c6bf-40a9-a906-a659ac14387f.jpg" },
+      { name: "Лукошко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/4e47c448-66cf-43cc-aaa9-c16d30e637eb.jpg" },
+      { name: "Солнышко", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/41dea84a-24db-4f61-b78d-0f9bb9ccd1d5.jpg" },
+      { name: "Лодочки", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/8368a09f-9854-4f57-a84d-b51b1b037054.jpg" },
+      { name: "Орешек", image: "https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/2c003a77-397f-4c51-95c4-1542720ba3b8.jpg" },
     ],
   },
 ]
