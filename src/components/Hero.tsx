@@ -13,7 +13,11 @@ export function Hero() {
 
       <div className="container mx-auto px-6 md:px-12 relative z-20 pt-8 md:pt-0">
         <div className="pt-16 md:pt-0">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">{"Варюня — вафельная продукция оптом"}</p>
+          <div className="flex justify-center mb-8">
+            <p className="inline-block text-base md:text-lg font-bold tracking-[0.2em] uppercase text-center text-white border-2 border-white/70 rounded-full px-6 py-2.5 backdrop-blur-sm bg-black/10">
+              {"Варюня — вафельная продукция оптом"}
+            </p>
+          </div>
 
           <h1 className="text-6xl font-bold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.95] drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]">
             {"Стаканчики, рожки,"}
