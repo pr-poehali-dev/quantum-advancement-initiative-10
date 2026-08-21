@@ -40,7 +40,7 @@ export function Header() {
           />
         </a>
 
-        <ul className="hidden md:flex items-center gap-10 text-sm font-medium tracking-wide">
+        <ul className="hidden md:flex items-center gap-10 text-base font-bold tracking-wide">
           {[
             { label: "Главная", href: "#hero" },
             { label: "О нас", href: "#about" },
@@ -64,7 +64,7 @@ export function Header() {
 
         <a
           href="#contact"
-          className="hidden md:inline-flex items-center gap-2 text-sm font-semibold px-5 py-2.5 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 shadow-sm"
+          className="hidden md:inline-flex items-center gap-2 text-sm font-bold px-5 py-2.5 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 shadow-sm"
         >
           Получить прайс
         </a>

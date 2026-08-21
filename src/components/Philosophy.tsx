@@ -54,7 +54,7 @@ export function Philosophy() {
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
             <p className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-6">О нас</p>
-            <h2 className="text-6xl md:text-6xl font-semibold leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+            <h2 className="text-5xl md:text-6xl font-bold leading-[1.1] tracking-tight mb-6 text-balance lg:text-7xl">
               Вафли, на которых
               <br />
               <HighlightedText>зарабатывают</HighlightedText>
@@ -90,7 +90,7 @@ export function Philosophy() {
                 <div className="flex gap-6">
                   <span className="text-muted-foreground/50 text-sm font-medium">0{index + 1}</span>
                   <div>
-                    <h3 className="text-xl font-medium mb-3">{item.title}</h3>
+                    <h3 className="text-2xl font-bold mb-3">{item.title}</h3>
                     <p className="text-muted-foreground leading-relaxed">{item.description}</p>
                   </div>
                 </div>

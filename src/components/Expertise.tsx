@@ -58,7 +58,7 @@ export function Expertise() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="max-w-3xl mb-20">
           <p className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-6">Условия работы</p>
-          <h2 className="text-6xl font-semibold leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+          <h2 className="text-6xl font-bold leading-[1.1] tracking-tight mb-6 text-balance lg:text-9xl">
             <HighlightedText>Выгодно</HighlightedText> работать
             <br />
             с нами
@@ -93,7 +93,7 @@ export function Expertise() {
                 >
                   <Icon className="w-10 h-10 mb-4 text-primary" strokeWidth={1.25} />
                 </div>
-                <h3 className="text-xl font-medium mb-4">{area.title}</h3>
+                <h3 className="text-2xl font-bold mb-4">{area.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{area.description}</p>
               </div>
             )

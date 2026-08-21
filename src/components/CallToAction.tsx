@@ -21,7 +21,7 @@ export function CallToAction() {
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-primary-foreground/70 text-sm font-semibold tracking-[0.3em] uppercase mb-8">Оставить заявку</p>
 
-          <h2 className="text-3xl md:text-4xl lg:text-6xl font-semibold leading-[1.1] tracking-tight mb-8 text-balance">
+          <h2 className="text-4xl md:text-5xl lg:text-7xl font-bold leading-[1.1] tracking-tight mb-8 text-balance">
             Готовы заказать
             <br />
             вафли <HighlightedText>оптом</HighlightedText>?

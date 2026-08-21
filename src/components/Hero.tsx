@@ -136,22 +136,22 @@ export function Hero() {
           transformStyle: "preserve-3d",
         }}
       >
-        <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white/90 mb-4">{"Варюня — вафельная продукция оптом"}</p>
+        <div className="mb-72 md:mb-60 lg:mb-80 pt-16 md:pt-0">
+          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white/90 mb-6">{"Варюня — вафельная продукция оптом"}</p>
 
           <h1
             ref={titleRef}
-            className="text-6xl font-semibold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.9]"
+            className="text-6xl font-bold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.95]"
           >
             {"Стаканчики, рожки,"}
             <br />
             <span className="text-orange-200">{"тарталетки, коржи"}</span>
           </h1>
 
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-10">
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-8 py-4 rounded-full hover:bg-primary/90 transition-all duration-300 shadow-lg"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-bold text-lg px-10 py-5 rounded-full hover:bg-primary/90 transition-all duration-300 shadow-lg"
             >
               Получить прайс-лист
             </a>

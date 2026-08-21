@@ -70,7 +70,7 @@ export function Catalog() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-14">
           <div>
             <p className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-4">Наша продукция</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight">
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
               Каталог <HighlightedText>Варюня</HighlightedText>
             </h2>
           </div>
@@ -89,7 +89,7 @@ export function Catalog() {
               <TabsTrigger
                 key={cat.id}
                 value={cat.id}
-                className="rounded-full px-5 py-2.5 text-sm font-medium data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-none"
+                className="rounded-full px-5 py-2.5 text-sm font-bold data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-none"
               >
                 {cat.label}
               </TabsTrigger>
@@ -115,7 +115,7 @@ export function Catalog() {
                       <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                     </div>
                     <div className="px-4 py-3">
-                      <span className="text-sm font-medium text-foreground">{item.name}</span>
+                      <span className="text-base font-bold text-foreground">{item.name}</span>
                     </div>
                   </div>
                 ))}
