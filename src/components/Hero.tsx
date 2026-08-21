@@ -22,7 +22,7 @@ export function Hero() {
           <h1 className="text-6xl font-bold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.95] drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]">
             {"Стаканчики, рожки,"}
             <br />
-            <span className="text-orange-300">{"тарталетки, коржи"}</span>
+            <span className="text-primary">{"тарталетки, коржи"}</span>
           </h1>
 
           <div className="flex justify-center mt-10">
