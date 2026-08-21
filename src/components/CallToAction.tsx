@@ -99,15 +99,6 @@ export function CallToAction() {
               <p className="text-muted-foreground text-xs text-center">Нажимая кнопку, вы соглашаетесь на обработку персональных данных</p>
             </form>
           )}
-
-          <div className="mt-10">
-            <a
-              href="tel:+79103229182"
-              className="inline-flex items-center justify-center gap-2 border border-primary-foreground/30 rounded-full px-8 py-4 text-sm font-medium tracking-wide hover:bg-white/10 transition-colors duration-300"
-            >
-              +7 (910) 322-91-82
-            </a>
-          </div>
         </div>
       </div>
     </section>
