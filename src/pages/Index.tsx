@@ -16,9 +16,9 @@ export default function Index() {
       <Philosophy />
       <Catalog />
       <Expertise />
+      <CallToAction />
       <FAQ />
       <MarketplaceFeedback />
-      <CallToAction />
       <Footer />
     </main>
   )
