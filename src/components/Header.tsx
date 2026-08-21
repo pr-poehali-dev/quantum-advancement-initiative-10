@@ -34,9 +34,9 @@ export function Header() {
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
           <img
-            src={scrolled || mobileMenuOpen ? "/images/varyunya-logo-white.png" : "/images/varyunya-logo.png"}
+            src="/images/varyunya-logo-white.png"
             alt="Варюня"
-            className="h-10 w-auto transition-opacity duration-300"
+            className="h-10 w-auto transition-opacity duration-300 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]"
           />
         </a>
 
@@ -51,10 +51,7 @@ export function Header() {
             <li key={item.label}>
               <a
                 href={item.href}
-                className={cn(
-                  "hover:text-accent transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-accent after:transition-all after:duration-300",
-                  scrolled || mobileMenuOpen ? "text-white" : "text-foreground",
-                )}
+                className="text-white hover:text-accent transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 hover:after:w-full after:bg-accent after:transition-all after:duration-300 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]"
               >
                 {item.label}
               </a>
@@ -70,10 +67,7 @@ export function Header() {
         </a>
 
         <button
-          className={cn(
-            "md:hidden z-50 transition-colors duration-300",
-            scrolled || mobileMenuOpen ? "text-white" : "text-foreground",
-          )}
+          className="md:hidden z-50 text-white transition-colors duration-300 drop-shadow-[0_2px_6px_rgba(0,0,0,0.4)]"
           aria-label={mobileMenuOpen ? "Закрыть меню" : "Открыть меню"}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
