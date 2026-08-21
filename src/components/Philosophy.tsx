@@ -55,9 +55,9 @@ export function Philosophy() {
           <div className="lg:sticky lg:top-32 lg:self-start">
             <p className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-6">О нас</p>
             <h2 className="text-5xl md:text-6xl font-bold leading-[1.1] tracking-tight mb-6 text-balance lg:text-7xl">
-              Вафли, на которых
+              Варюня, <HighlightedText>Сделай сам</HighlightedText>
               <br />
-              <HighlightedText>зарабатывают</HighlightedText>
+              твой хруст, твой вкус, твой праздник
             </h2>
 
             <div className="relative hidden lg:block">
