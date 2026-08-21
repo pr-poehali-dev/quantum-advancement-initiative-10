@@ -8,6 +8,29 @@ export function CallToAction() {
   const [phone, setPhone] = useState("")
   const [submitted, setSubmitted] = useState(false)
 
+  const formatPhone = (value: string) => {
+    let digits = value.replace(/\D/g, "")
+    if (digits.startsWith("8")) digits = "7" + digits.slice(1)
+    if (!digits.startsWith("7")) digits = "7" + digits
+    digits = digits.slice(0, 11)
+
+    const rest = digits.slice(1)
+    let result = "+7"
+    if (rest.length > 0) result += ` (${rest.slice(0, 3)}`
+    if (rest.length >= 3) result += `) ${rest.slice(3, 6)}`
+    if (rest.length >= 6) result += `-${rest.slice(6, 8)}`
+    if (rest.length >= 8) result += `-${rest.slice(8, 10)}`
+    return result
+  }
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.value.length < phone.length && phone.endsWith(")")) {
+      setPhone(phone.slice(0, -3).trimEnd())
+      return
+    }
+    setPhone(formatPhone(e.target.value))
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     const subject = encodeURIComponent("Заявка на прайс-лист с сайта")
@@ -57,10 +80,12 @@ export function CallToAction() {
                 <Icon name="Phone" size={18} className="absolute left-4 top-1/2 -translate-y-1/2 text-muted-foreground" />
                 <input
                   type="tel"
-                  placeholder="Телефон"
+                  placeholder="+7 (___) ___-__-__"
                   value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
+                  onChange={handlePhoneChange}
+                  onFocus={() => !phone && setPhone("+7")}
                   required
+                  maxLength={18}
                   className="w-full bg-secondary/60 border border-border rounded-xl pl-11 pr-4 py-4 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all"
                 />
               </div>
