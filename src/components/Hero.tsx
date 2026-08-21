@@ -9,14 +9,16 @@ export function Hero() {
         />
       </div>
 
-      <div className="container mx-auto px-6 md:px-12 relative z-10 pt-8 md:pt-0">
-        <div className="pt-16 md:pt-0">
-          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white/90 mb-6">{"Варюня — вафельная продукция оптом"}</p>
+      <div className="absolute inset-0 z-10 pointer-events-none bg-gradient-to-b from-black/60 via-black/45 to-black/60" />
 
-          <h1 className="text-6xl font-bold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.95]">
+      <div className="container mx-auto px-6 md:px-12 relative z-20 pt-8 md:pt-0">
+        <div className="pt-16 md:pt-0">
+          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white mb-6 drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]">{"Варюня — вафельная продукция оптом"}</p>
+
+          <h1 className="text-6xl font-bold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.95] drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]">
             {"Стаканчики, рожки,"}
             <br />
-            <span className="text-orange-200">{"тарталетки, коржи"}</span>
+            <span className="text-orange-300">{"тарталетки, коржи"}</span>
           </h1>
 
           <div className="flex justify-center mt-10">
@@ -29,8 +31,6 @@ export function Hero() {
           </div>
         </div>
       </div>
-
-      <div className="absolute inset-0 z-20 pointer-events-none bg-gradient-to-t from-black/50 via-black/20 to-black/40" />
     </section>
   )
 }
