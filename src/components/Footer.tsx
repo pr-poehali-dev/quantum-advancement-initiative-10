@@ -6,7 +6,7 @@ export function Footer() {
           {/* Brand */}
           <div className="md:col-span-2">
             <a href="/" className="inline-block mb-6">
-              <span className="text-2xl font-bold tracking-tight text-primary">Варюня</span>
+              <img src="/images/varyunya-logo.png" alt="Варюня" className="h-12 w-auto" />
             </a>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Производитель качественной вафельной продукции: стаканчиков, рожков, тарталеток и коржей. Стабильные поставки и выгодные цены для бизнеса.

@@ -33,14 +33,11 @@ export function Header() {
     >
       <nav className="container mx-auto px-6 flex items-center justify-between md:px-[24]">
         <a href="/" className="flex items-center gap-2 group" onClick={scrollToTop}>
-          <span
-            className={cn(
-              "text-2xl font-bold tracking-tight transition-colors duration-300",
-              scrolled || mobileMenuOpen ? "text-white" : "text-primary",
-            )}
-          >
-            Варюня
-          </span>
+          <img
+            src={scrolled || mobileMenuOpen ? "/images/varyunya-logo-white.png" : "/images/varyunya-logo.png"}
+            alt="Варюня"
+            className="h-10 w-auto transition-opacity duration-300"
+          />
         </a>
 
         <ul className="hidden md:flex items-center gap-10 text-sm font-medium tracking-wide">
