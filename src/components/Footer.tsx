@@ -1,3 +1,6 @@
+import { TelegramIcon, VkIcon, MaxIcon } from "./icons/MessengerIcons"
+import Icon from "@/components/ui/icon"
+
 export function Footer() {
   return (
     <footer className="py-16 md:py-24 border-t border-border">
@@ -45,23 +48,33 @@ export function Footer() {
             <h4 className="text-sm font-medium mb-4">Связь</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li>
-                <a href="mailto:calmarwaffles@gmail.com" className="hover:text-foreground transition-colors">
+                <a href="mailto:calmarwaffles@gmail.com" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                  <Icon name="Mail" size={16} />
                   calmarwaffles@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+79103229182" className="hover:text-foreground transition-colors">
+                <a href="tel:+79103229182" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                  <Icon name="Phone" size={16} />
                   +7 (910) 322-91-82
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="#" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                  <TelegramIcon className="w-4 h-4" />
                   Телеграм
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-foreground transition-colors">
+                <a href="#" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                  <VkIcon className="w-4 h-4" />
                   ВКонтакте
+                </a>
+              </li>
+              <li>
+                <a href="#" className="flex items-center gap-2 hover:text-foreground transition-colors">
+                  <MaxIcon className="w-4 h-4" />
+                  МАКС
                 </a>
               </li>
             </ul>
