@@ -47,6 +47,7 @@ export function Header() {
             { label: "Каталог", href: "#projects" },
             { label: "Условия", href: "#services" },
             { label: "Вопросы", href: "#faq" },
+            { label: "Маркетплейсы", href: "#marketplace-feedback" },
             { label: "Контакты", href: "#footer" },
           ].map((item) => (
             <li key={item.label}>
@@ -100,6 +101,7 @@ export function Header() {
               { label: "Каталог", href: "#projects" },
               { label: "Условия", href: "#services" },
               { label: "Вопросы", href: "#faq" },
+              { label: "Маркетплейсы", href: "#marketplace-feedback" },
               { label: "Контакты", href: "#footer" },
             ].map((item) => (
               <li key={item.label}>

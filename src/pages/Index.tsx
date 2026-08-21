@@ -3,6 +3,7 @@ import { Hero } from "../components/Hero"
 import { Philosophy } from "../components/Philosophy"
 import { Catalog } from "../components/Catalog"
 import { Expertise } from "../components/Expertise"
+import { MarketplaceFeedback } from "../components/MarketplaceFeedback"
 import { FAQ } from "../components/FAQ"
 import { CallToAction } from "../components/CallToAction"
 import { Footer } from "../components/Footer"
@@ -15,6 +16,7 @@ export default function Index() {
       <Philosophy />
       <Catalog />
       <Expertise />
+      <MarketplaceFeedback />
       <FAQ />
       <CallToAction />
       <Footer />
