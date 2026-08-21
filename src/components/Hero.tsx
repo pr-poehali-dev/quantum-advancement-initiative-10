@@ -120,8 +120,8 @@ export function Hero() {
     <section id="hero" ref={heroRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
-          src="https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/1b0c7a07-54c0-4be4-b29b-9d50dcabad2c.jpg"
-          alt="Вафельные стаканчики и рожки"
+          src="https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/9b96e045-17f1-4e8a-8a97-5efe3143c1e5.jpg"
+          alt="Вафельная продукция Варюня"
           className="w-full h-full object-cover object-center"
         />
       </div>
@@ -137,20 +137,29 @@ export function Hero() {
         }}
       >
         <div className="mb-72 md:mb-60 lg:mb-80">
-          <p className="text-sm tracking-[0.3em] uppercase text-center text-secondary mb-0">{"Оптовый поставщик вафельной продукции"}</p>
+          <p className="text-sm font-semibold tracking-[0.3em] uppercase text-center text-white/90 mb-4">{"Варюня — вафельная продукция оптом"}</p>
 
           <h1
             ref={titleRef}
-            className="text-7xl font-medium text-balance text-center text-white mb-0 tracking-tight leading-[0.9] lg:text-8xl"
+            className="text-6xl font-semibold text-balance text-center text-white mb-0 tracking-tight leading-[1.05] lg:text-8xl lg:leading-[0.9]"
           >
             {"Стаканчики, рожки,"}
             <br />
             <span className="text-orange-200">{"тарталетки, коржи"}</span>
           </h1>
+
+          <div className="flex justify-center mt-8">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-semibold px-8 py-4 rounded-full hover:bg-primary/90 transition-all duration-300 shadow-lg"
+            >
+              Получить прайс-лист
+            </a>
+          </div>
         </div>
       </div>
 
-      <div className="absolute inset-0 z-20 pointer-events-none bg-black/30" />
+      <div className="absolute inset-0 z-20 pointer-events-none bg-gradient-to-t from-black/50 via-black/20 to-black/40" />
 
       {animationComplete && (
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce z-30">

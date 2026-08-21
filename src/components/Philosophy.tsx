@@ -5,21 +5,21 @@ const philosophyItems = [
   {
     title: "Широкий ассортимент",
     description:
-      "Работаем с ведущими производителями и предлагаем десятки позиций вафель: мягкие, хрустящие, в глазури, с начинками.",
+      "Производим 4 группы вафельной продукции: стаканчики, рожки, коржи и тарталетки — свыше 20 позиций на любой вкус.",
   },
   {
-    title: "Проверенные поставщики",
+    title: "Контроль качества",
     description:
-      "Тщательно отбираем партнёров-производителей. Каждая партия проходит проверку качества перед отгрузкой клиентам.",
+      "Собственное производство и строгий контроль на каждом этапе. Каждая партия проверяется перед отгрузкой клиентам.",
   },
   {
     title: "Быстрая логистика",
     description:
-      "Собственный склад и отработанная логистика позволяют отгружать заказы в течение 1–2 дней. Доставляем по всей России.",
+      "Отработанная логистика позволяет отгружать заказы в течение 1–2 дней. Доставляем по всей России.",
   },
   {
     title: "Выгодные цены",
-    description: "Закупаем большими объёмами напрямую у заводов — передаём выгоду клиентам. Чем крупнее заказ, тем ниже цена.",
+    description: "Работаем напрямую, без посредников — передаём выгоду клиентам. Чем крупнее заказ, тем ниже цена.",
   },
 ]
 
@@ -53,8 +53,8 @@ export function Philosophy() {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24">
           {/* Left column - Title and image */}
           <div className="lg:sticky lg:top-32 lg:self-start">
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">О нас</p>
-            <h2 className="text-6xl md:text-6xl font-medium leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
+            <p className="text-primary text-sm font-semibold tracking-[0.3em] uppercase mb-6">О нас</p>
+            <h2 className="text-6xl md:text-6xl font-semibold leading-[1.15] tracking-tight mb-6 text-balance lg:text-8xl">
               Вафли, на которых
               <br />
               <HighlightedText>зарабатывают</HighlightedText>
@@ -62,9 +62,9 @@ export function Philosophy() {
 
             <div className="relative hidden lg:block">
               <img
-                src="https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/0adcc3fe-c581-4a35-8f10-231c09015612.jpg"
-                alt="Вафельная продукция оптом"
-                className="opacity-90 relative z-10 w-auto rounded-sm"
+                src="https://cdn.poehali.dev/projects/15905451-8fd8-4c75-a44f-756607361b5f/files/9b96e045-17f1-4e8a-8a97-5efe3143c1e5.jpg"
+                alt="Вафельная продукция Варюня"
+                className="opacity-95 relative z-10 w-auto rounded-2xl"
               />
             </div>
           </div>
@@ -72,7 +72,7 @@ export function Philosophy() {
           {/* Right column - Description and Philosophy items */}
           <div className="space-y-6 lg:pt-48">
             <p className="text-muted-foreground text-lg leading-relaxed max-w-md mb-12">
-              Мы оптовый поставщик вафельной продукции с 2010 года. Специализируемся на стаканчиках, рожках, тарталетках и коржах — поставляем в кафе, кондитерские и торговые сети по всей стране.
+              «Варюня» — производитель качественной вафельной продукции. Специализируемся на стаканчиках, рожках, тарталетках и коржах — поставляем в кафе, кондитерские и торговые сети по всей стране.
             </p>
 
             {philosophyItems.map((item, index) => (
